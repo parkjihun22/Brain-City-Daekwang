@@ -292,7 +292,7 @@ const handleInputChange = (e) => {
                   반도체 클러스터의 중심이 될
                 </div>
                 <div className={styles.mainImageLine}></div>
-                <div className={styles.mainImageText}>브레인시티 메디스파크 로제비앙모아엘가 2,3단지</div>
+                <div className={styles.mainImageText}>브레인시티 메디스파크 로제비앙 모아엘가 </div>
               </div>
               {/* 기존 관심고객 등록 링크 대신 방문예약 버튼 클릭 시 팝업 오픈 */}
               <div>
@@ -609,7 +609,7 @@ const handleInputChange = (e) => {
     </div>
     <div className={styles.mainImageTitleBox1}>
       <div className={styles.mainImageText1}>
-        브레인시티 메디스파크 로제비앙모아엘가
+        브레인시티 메디스파크 로제비앙 모아엘가
         <br />
         2단지
       </div>

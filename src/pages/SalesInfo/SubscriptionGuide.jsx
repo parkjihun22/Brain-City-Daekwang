@@ -161,7 +161,7 @@ const ComplexGuide1 = () => {
       <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="브레인시티 메디스파크 로제비앙모아엘가2,3단지 청약제도 변경안내 이미지1"
+        alt="브레인시티 메디스파크 로제비앙모아엘가 청약제도 변경안내 이미지1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
       />
 
