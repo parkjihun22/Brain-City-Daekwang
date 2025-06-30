@@ -16,11 +16,9 @@
 
 .subPinkImg {
     position: absolute;
-    left: 61vw; /* 화면 오른쪽 끝으로 배치 */
     top: -2.2vw;
-    width: 5.5vw; /* 크기 조정 (필요에 따라 변경) */
+    width: 6vw; /* 크기 조정 (필요에 따라 변경) */
     height: 26vw; /* 배경이 적용될 크기 지정 */
-    background-color: #095052; /* 초록색 배경 추가 */
     z-index: 1; /* 텍스트와 겹치지 않도록 설정 */
     animation: subPinkImgFadeIn 1.5s ease-out forwards 1.5s; /* 서서히 나타나게 */
 }
