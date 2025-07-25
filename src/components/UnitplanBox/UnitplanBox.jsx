@@ -6,7 +6,7 @@ import room59A from "../../assets/UnitplanBox/unit_59a.jpg";
 import room59B from "../../assets/UnitplanBox/unit_59b.jpg";
 import room84A from "../../assets/UnitplanBox/unit_84a.jpg";
 import room84B from "../../assets/UnitplanBox/unit_84b.jpg";
-import room84C from "../../assets/UnitplanBox/unit_84c.jpg";
+import room101 from "../../assets/UnitplanBox/unit_101.jpg";
 // import room119B from "../../assets/UnitplanBox/119B.png";
 
 
@@ -15,7 +15,7 @@ const contents = [
     { type: '59B㎡', src: room59B },
     { type: '84A㎡', src: room84A },
     { type: '84B㎡', src: room84B },
-    { type: '84C㎡', src: room84C },
+    { type: '101㎡', src: room101 },
 
 ];
 
