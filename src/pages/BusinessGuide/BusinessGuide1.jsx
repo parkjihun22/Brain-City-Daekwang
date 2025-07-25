@@ -1,215 +1,156 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
-import styles from "./BusinessGuide.module.scss";
+import styles from './BusinessGuide.module.scss';
 import Header from "../../components/Header/Header";
 import MenuBar from "../../components/MenuBar/MenuBar";
 import Footer from "../../components/Footer/Footer";
 import Bener from "../../components/Bener/Bener";
 import FixIcon from "../../components/FixIcon/FixIcon";
+import page1 from "../../assets/BusinessGuide/BusinessGuide1/page1.jpg";
+import tableImage from "../../assets/BusinessGuide/BusinessGuide1/tableImage.jpg";
 import { Helmet } from "react-helmet-async";
 
-// 2단지 이미지 및 표 이미지
-import page2 from "../../assets/BusinessGuide/BusinessGuide1/page1.jpg";
-import tableImage2 from "../../assets/BusinessGuide/BusinessGuide1/tableImage.jpg";
-// 3단지 이미지 및 표 이미지
-import page3 from "../../assets/BusinessGuide/BusinessGuide1/page2.jpg";
-import tableImage3 from "../../assets/BusinessGuide/BusinessGuide1/tableImage.jpg";
 
-// 2단지 사업개요 데이터
-const projectData2 = [
-  { label: "사업명", value: "평택 브레인시티 메디스파크 로제비앙모아엘가" },
-  { label: "사업위치", value: "평택시 처인구 남동 산126-1일원" },
-  { label: "대지면적", value: "106,050.4985㎡" },
-  { label: "건축면적", value: "12,000.0000㎡" },
-  { label: "연면적", value: "350,000.0000㎡" },
-  { label: "용적률", value: "220.00%" },
-  { label: "건축규모", value: "아파트 지하 3층 ~ 지상 28층 14개동(59㎡A·B / 84㎡A·B·C)" },
-  { label: "세대수", value: "2단지 1,804세대" },
+const projectData = [
+	{ label: '사업명', value: '평택 브레인시티 공동6BL 대광로제비앙' },
+	{ label: '사업위치', value: '경기도 평택시 장안동 평택 브레인시티 일반산업단지 공동6BL' },
+	{ label: '지역/지구', value: '공동주택용지/제3종 일반주거지역' },
+	{ label: '건축규모', value: '지하2층~지상35층(아파트10개동, 근린생활시설)' },
+	{ label: '세대수', value: '총1,215세대' },
 ];
 
-// 3단지 사업개요 데이터
-const projectData3 = [
-  { label: "사업명", value: "브레인시티 메디스파크 로제비앙모아엘가 3단지" },
-  { label: "사업위치", value: "평택시 처인구 남동 243일원" },
-  { label: "대지면적", value: "106,050.4985㎡" },
-  { label: "건축면적", value: "11,500.0000㎡" },
-  { label: "연면적", value: "340,000.0000㎡" },
-  { label: "용적률", value: "215.00%" },
-  { label: "건축규모", value: "아파트 지하 4층 ~ 지상 26층 (84㎡A·B·C)" },
-  { label: "세대수", value: "총 239세대" },
-];
+const BusinessGuide1 = () => {
+	const menuContents = [
+		{ title: "사업안내", url: "/BusinessGuide/intro" },
+		{ title: "분양일정", url: "/BusinessGuide/plan" },
+		// { title: "공급안내", url: "/BusinessGuide/documents" }
+	];
+	const [isScroll, setIsScroll] = useState(false);
+	const { pathname } = useLocation(); // 현재 경로를 가져옴
+	const isMobile = useMediaQuery({ query: '(max-width: 900px)' }); // 모바일 여부 확인
 
-const BusinessGuide = () => {
-  const menuContents = [
-    { title: "사업안내", url: "/BusinessGuide/intro" },
-    { title: "분양일정", url: "/BusinessGuide/plan" },
-    // { title: "계약서류안내", url: "/BusinessGuide/documents" },
-  ];
+	useEffect(() => {
+		window.scrollTo(0, 0); // 페이지가 로드될 때 스크롤을 최상단으로 이동
+	}, [pathname]); // pathname이 변경될 때마다 실행
 
-  const [isScroll, setIsScroll] = useState(false);
-  const { pathname } = useLocation();
-  const isMobile = useMediaQuery({ query: "(max-width: 900px)" });
+	useEffect(() => {
+		const handleScroll = () => {
+			if (window.scrollY > 0) {
+				setIsScroll(true);
+			} else {
+				setIsScroll(false);
+			}
+		};
 
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
+		window.addEventListener('scroll', handleScroll);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScroll(window.scrollY > 0);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
 
-  // 선택된 단지 상태: 2단지 또는 3단지 (기본은 2단지)
-  const [selectedPhase, setSelectedPhase] = useState(2);
+	return (
+		<div className={styles.container}>
 
-  // 선택된 단지에 따른 이미지 및 데이터 설정
-  const currentContent =
-    selectedPhase === 2
-      ? {
-          pageImage: page2,
-          tableImage: tableImage2,
-          projectData: projectData2,
-        }
-      : {
-          pageImage: page3,
-          tableImage: tableImage3,
-          projectData: projectData3,
-        };
+			<Helmet>
+				{/* 기본 문자셋 및 모바일 최적화를 위한 meta 태그 */}
+				<meta charSet="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+				<meta name="theme-color" content="#ffffff" />
+				<meta name="robots" content="index, follow" />
 
-  // SEO 및 메타 태그에 사용할 데이터
-  const metaData = {
-    2: {
-      title: "브레인시티 메디스파크 로제비앙모아엘가 - 사업안내",
-      description:
-        "브레인시티 메디스파크 로제비앙모아엘가의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명합니다.",
-      url: "https://leecols.kr/BusinessGuide/intro",
-      image: "https://leecols.kr/Main1.png",
-    },
-    3: {
-      title: "브레인시티로제비앙모아엘가 3단지 - 사업안내",
-      description:
-        "브레인시티 메디스파크 로제비앙모아엘가 3단지의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명합니다.",
-      url: "https://leecols.kr/BusinessGuide/intro",
-      image: "https://leecols.kr/Main1.png",
-    },
-  };
+				{/* SEO 최적화를 위한 메타 태그 */}
+				<title>브레인시티 메디스파크 로제비앙 - 사업안내</title>
+				<meta
+					name="description"
+					content="브레인시티 메디스파크 로제비앙의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
+				/>
+				<meta
+					name="keywords"
+					content="브레인시티 메디스파크 로제비앙, 브레인시티 메디스파크 대광로제비앙 모아엘가, 브레인시티 메디스파크 로제비앙 모델하우스"
+				/>
+				<link rel="canonical" href="https://www.alwatanyh.com/BusinessGuide/intro" />
 
-  return (
-	
-    <div className={styles.container}>
-		
-      <Helmet>
-        <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <meta name="theme-color" content="#ffffff" />
-        <meta name="robots" content="index, follow" />
-        <title>{metaData[selectedPhase].title}</title>
-        <meta name="description" content={metaData[selectedPhase].description} />
-        <meta name="keywords" content="브레인시티 메디스파크 로제비앙, 브레인시티로제비앙모아엘가, 브레인시티로제비앙모아엘가모델하우스" />
-        <link rel="canonical" href={metaData[selectedPhase].url} />
-        <meta property="og:title" content={metaData[selectedPhase].title} />
-        <meta
-          property="og:description"
-          content={metaData[selectedPhase].description}
-        />
-        <meta property="og:image" content={metaData[selectedPhase].image} />
-        <meta property="og:url" content={metaData[selectedPhase].url} />
-        <meta property="og:site_name" content={metaData[selectedPhase].title} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={metaData[selectedPhase].title} />
-        <meta
-          name="twitter:description"
-          content={metaData[selectedPhase].description}
-        />
-        <meta name="twitter:image" content={metaData[selectedPhase].image} />
-        <meta name="twitter:url" content={metaData[selectedPhase].url} />
-        <script type="application/ld+json">
-          {`
-          {
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "${metaData[selectedPhase].title}",
-            "description": "${metaData[selectedPhase].description}",
-            "url": "${metaData[selectedPhase].url}"
-          }
-          `}
-        </script>
-      </Helmet>
+				{/* Open Graph - 소셜 미디어 공유 최적화 */}
+				<meta property="og:title" content="브레인시티 메디스파크 로제비앙 - 사업안내" />
+				<meta
+					property="og:description"
+					content="브레인시티 메디스파크 로제비앙의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
+				/>
+				<meta property="og:image" content="https://www.alwatanyh.com/Main1.png" />
+				<meta property="og:url" content="https://www.alwatanyh.com/BusinessGuide/intro" />
+				<meta property="og:site_name" content="브레인시티 메디스파크 로제비앙" />
 
-      <Header isChanged={isScroll} />
-      <FixIcon />
-      <Bener title="사업개요" />
-      <MenuBar contents={menuContents} />
-      <h1 className={styles.screenReaderOnly}>
-        {metaData[selectedPhase].title}
-      </h1>
-      <p className={styles.screenReaderOnly}>
-        {metaData[selectedPhase].description}
-      </p>
+				{/* Twitter 카드 설정 */}
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content="브레인시티 메디스파크 로제비앙 - 사업안내" />
+				<meta
+					name="twitter:description"
+					content="브레인시티 메디스파크 로제비앙의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다."
+				/>
+				<meta name="twitter:image" content="https://www.alwatanyh.com/Main1.png" />
+				<meta name="twitter:url" content="https://www.alwatanyh.com/BusinessGuide/intro" />
 
-      {/* 선택된 단지에 따른 상단 이미지 */}
-      <img
-        className={styles.img3}
-        src={currentContent.pageImage}
-        alt={`브레인시티 메디스파크 로제비앙모아엘가 ${selectedPhase}단지 조감도`}
-      />
-	  
-	  {/* 단지 선택 버튼 */}
-      <div className={styles.phaseButtons}>
-	  <button
-  className={selectedPhase === 2 ? styles.active : styles.inactive}
-  onClick={() => setSelectedPhase(2)}
->
-  2단지
-</button>
-<button
-  className={selectedPhase === 3 ? styles.active : styles.inactive}
-  onClick={() => setSelectedPhase(3)}
->
-  3단지
-</button>
-      </div>
+				{/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
+				<script type="application/ld+json">
+					{`
+					{
+						"@context": "https://schema.org",
+						"@type": "WebPage",
+						"name": "브레인시티 메디스파크 로제비앙 - 사업안내",
+						"description": "브레인시티 메디스파크 로제비앙의 사업개요를 통해 프로젝트의 비전과 가치를 확인하세요. 단지 설계, 개발 목표, 주변 환경과의 조화 등을 중점적으로 설명하여 평택에서의 새로운 주거 중심지로서의 가능성을 보여드립니다.",
+						"url": "https://www.alwatanyh.com/BusinessGuide/intro"
+					}
+					`}
+				</script>
+			</Helmet>
 
-      {/* 사업개요 표 영역 */}
-      <div className={styles.tableContainer}>
-        {!isMobile && (
-          <img
-            className={styles.tableImg}
-            src={currentContent.tableImage}
-            alt={`사업개요표 ${selectedPhase}단지`}
-          />
-        )}
+			<Header isChanged={isScroll} />
+			<FixIcon />
 
-		
-        <table className={styles.projectTable}>
-          <tbody>
-            {currentContent.projectData.map((item, index) => (
-              <tr key={index}>
-                <td className={styles.label}>{item.label}</td>
-                <td className={styles.contents}>{item.value}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+			<Bener title="사업개요" />
 
-      <div className={styles.commonBox}>
-        <div className={styles.notice}>
-          ※ 상기 이미지에 표현된 외관 디자인은 개략적인 이해를 돕기 위한 것으로, 상품특화 및 인허가 협의에 따라 입면 디자인, 경관조명, 출입구, 색채, 몰딩, 창호, 난간, 옥상 장식물, 줄눈, 각종 시설물의 디자인 및 형태, 마감사양, 조명 설치 위치 등이 실시공시 변경될 수 있습니다.
-        </div>
-        
-      </div>
+			<MenuBar contents={menuContents} />
+			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
+			<h1 className={styles.screenReaderOnly}>브레인시티 메디스파크 로제비앙 - 사업안내</h1>
+			<p className={styles.screenReaderOnly}>
+				브레인시티 메디스파크 로제비앙는 혁신적인 주거 환경을 제공하는 새로운 아파트 단지입니다. 이 페이지에서는 프로젝트의 전체적인 개요와 개발 계획을 상세히 소개합니다. 사업의 목적, 주요 설계 및 특징, 그리고 주변 환경을 포함한 다양한 정보를 통해 입주자들에게 더 나은 선택을 할 수 있도록 돕습니다.
+			</p>
 
-      <Footer />
-    </div>
-  );
-};
+			<div className={styles.textBox}>
+				<div>특별한 라이프 컬렉션</div>
+				<div>브레인시티 메디스파크 로제비앙의 새로운 자부심으로 찾아옵니다.</div>
+			</div>
 
-export default BusinessGuide;
+			<img className={styles.img3} src={page1} alt="브레인시티 메디스파크 로제비앙-image1"/>
+
+			<div className={styles.tableContainer}>
+				{!isMobile && <img className={styles.tableImg} src={tableImage} />}
+				<table className={styles.projectTable}>
+					<tbody>
+						{projectData.map((item, index) => (
+							<tr key={index}>
+								<td className={styles.label}>{item.label}</td>
+								<td className={styles.contents}>{item.value}</td>
+							</tr>
+						))}
+					</tbody>
+				</table>
+			</div>
+
+			 <div className={styles.commonBox}>
+				<div className={styles.notice}>
+					※ 본 홈페이지에 표기된 내용은 하기의 내용을 근거로 한 내용이며, 추후 계획의 변동 등은 당사와 무관합니다.
+				</div>
+
+				
+			</div> 
+
+
+			<Footer />
+		</div>
+	)
+}
+
+export default BusinessGuide1;

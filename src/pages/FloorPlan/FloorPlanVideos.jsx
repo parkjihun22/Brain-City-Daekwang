@@ -68,22 +68,23 @@ const FloorPlanVideos = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>브레인시티 메디스파크 로제비앙모아엘가 - 평면안내</title>
+        <title>브레인시티 메디스파크 로제비앙 - 평면안내</title>
         <meta
           name="description"
           content="세대안내영상 안내 페이지는 브레인시티 메디스파크 로제비앙의 각 아파트 세대안내영상을 제공합니다.
 "
         />
-        <meta name="keywords" content="브레인시티 메디스파크 로제비앙, 브레인시티로제비앙모아엘가, 브레인시티로제비앙모아엘가모델하우스" />
+       <meta name="keywords"
+        content="브레인시티메디스파크, 브레인시티메디스파크로제비앙, 브레인시티메디스파크대광로제비앙" />
         <link
           rel="canonical"
-          href="https://leecols.kr/FloorPlan/videos"
+          href="https://www.leecols.kr/FloorPlan/videos"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="브레인시티 메디스파크 로제비앙모아엘가 - 평면안내"
+          content="브레인시티 메디스파크 로제비앙 - 평면안내"
         />
         <meta
           property="og:description"
@@ -92,19 +93,19 @@ const FloorPlanVideos = () => {
         />
         <meta
           property="og:image"
-          content="https://leecols.kr/Main1.png"
+          content="https://www.leecols.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://leecols.kr/FloorPlan/videos"
+          content="https://www.leecols.kr/FloorPlan/videos"
         />
-        <meta property="og:site_name" content="브레인시티 메디스파크 로제비앙모아엘가" />
+        <meta property="og:site_name" content="브레인시티 메디스파크 로제비앙" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="브레인시티 메디스파크 로제비앙모아엘가 - 평면안내"
+          content="브레인시티 메디스파크 로제비앙 - 평면안내"
         />
         <meta
           name="twitter:description"
@@ -113,11 +114,11 @@ const FloorPlanVideos = () => {
         />
         <meta
           name="twitter:image"
-          content="https://leecols.kr/Main1.png"
+          content="https://www.leecols.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://leecols.kr/FloorPlan/videos"
+          content="https://www.leecols.kr/FloorPlan/videos"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -126,10 +127,10 @@ const FloorPlanVideos = () => {
                     {
                       "@context": "https://schema.org",
                       "@type": "WebPage",
-                      "name": "브레인시티 메디스파크 로제비앙모아엘가 - 평면안내",
+                      "name": "브레인시티 메디스파크 로제비앙 - 평면안내",
                       "description": "세대안내영상 안내 페이지는 브레인시티 메디스파크 로제비앙의 각 아파트 세대안내영상을 제공합니다.
 ",
-                      "url": "https://leecols.kr/FloorPlan/videos"
+                      "url": "https://www.leecols.kr/FloorPlan/videos"
                     }
                     `}
         </script>
@@ -146,8 +147,8 @@ const FloorPlanVideos = () => {
       <p className={styles.screenReaderOnly}>세대안내영상 안내 페이지입니다.</p>
 
       <div className={styles.textBox}>
-        <div>평택 반도체클러스터의 눈부신 가치 위에 찾아오는</div>
-        <div>모아엘가의 가치를 영상으로 확인해보세요</div>
+        <div>평택의 눈부신 가치 위에 찾아오는</div>
+        <div>로제비앙의 가치를 영상으로 확인해보세요</div>
       </div>
 
       {/* 탭 메뉴 */}

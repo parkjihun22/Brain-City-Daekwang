@@ -71,56 +71,56 @@ const BusinessGuide2 = () => {
 		<meta name="robots" content="index, follow" />
 
 		{/* SEO 최적화를 위한 메타 태그 */}
-		<title>브레인시티 메디스파크 로제비앙모아엘가 - 당첨자 서류안내</title>
+		<title>브레인시티 메디스파크 로제비앙 - 당첨자 서류안내</title>
 		<meta
 		  name="description"
-		  content="브레인시티 메디스파크 로제비앙 2단지 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
+		  content="브레인시티 메디스파크 로제비앙 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
 "
 		/>
-  		<meta name="keywords" content="브레인시티 메디스파크 로제비앙, 브레인시티로제비앙모아엘가, 브레인시티로제비앙모아엘가모델하우스" />					
+  		<meta name="keywords" content="브레인시티 메디스파크 로제비앙, 브레인시티 메디스파크 로제비앙, 브레인시티 메디스파크 로제비앙모델하우스" />					
 		<link
 		  rel="canonical"
-		  href="https://leecols.kr/BusinessGuide/documents"
+		  href="https://www.leecols.kr/BusinessGuide/documents"
 		/>
 
 		{/* Open Graph - 소셜 미디어 공유 최적화 */}
 		<meta
 		  property="og:title"
-		  content="브레인시티 메디스파크 로제비앙모아엘가 - 당첨자 서류안내"
+		  content="브레인시티 메디스파크 로제비앙 - 당첨자 서류안내"
 		/>
 		<meta
 		  property="og:description"
-		  content="브레인시티 메디스파크 로제비앙 2단지 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
+		  content="브레인시티 메디스파크 로제비앙 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
 "
 		/>
 		<meta
 		  property="og:image"
-		  content="https://leecols.kr/Main1.png"
+		  content="https://www.leecols.kr/Main1.png"
 		/>
 		<meta
 		  property="og:url"
-		  content="https://leecols.kr/BusinessGuide/documents"
+		  content="https://www.leecols.kr/BusinessGuide/documents"
 		/>
-		<meta property="og:site_name" content="브레인시티 메디스파크 로제비앙모아엘가" />
+		<meta property="og:site_name" content="브레인시티 메디스파크 로제비앙" />
 
 		{/* Twitter 카드 설정 */}
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta
 		  name="twitter:title"
-		  content="브레인시티 메디스파크 로제비앙모아엘가 - 당첨자 서류안내"
+		  content="브레인시티 메디스파크 로제비앙 - 당첨자 서류안내"
 		/>
 		<meta
 		  name="twitter:description"
-		  content="브레인시티 메디스파크 로제비앙 2단지 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
+		  content="브레인시티 메디스파크 로제비앙 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
 "
 		/>
 		<meta
 		  name="twitter:image"
-		  content="https://leecols.kr/Main1.png"
+		  content="https://www.leecols.kr/Main1.png"
 		/>
 		<meta
 		  name="twitter:url"
-		  content="https://leecols.kr/BusinessGuide/documents"
+		  content="https://www.leecols.kr/BusinessGuide/documents"
 		/>
 
 		{/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -129,10 +129,10 @@ const BusinessGuide2 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "브레인시티 메디스파크 로제비앙모아엘가 - 당첨자 서류안내",
-											"description": "브레인시티 메디스파크 로제비앙 2단지 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
+											"name": "브레인시티 메디스파크 로제비앙 - 당첨자 서류안내",
+											"description": "브레인시티 메디스파크 로제비앙 선착순계약을 위한 필수 서류 목록과 준비 절차를 안내합니다. 간단하고 명확한 정보로 청약 당첨 후 필요한 준비를 돕고, 서류 제출에 문제가 없도록 상세한 가이드를 제공합니다
 ",
-											"url": "https://leecols.kr/BusinessGuide/documents"
+											"url": "https://www.leecols.kr/BusinessGuide/documents"
 										}
 										`}
 		</script>
@@ -143,16 +143,16 @@ const BusinessGuide2 = () => {
 			<Bener title="사업개요" />
 			<MenuBar contents={menuContents} />
 			{/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
-            <h1 className={styles.screenReaderOnly}>브레인시티 메디스파크 로제비앙 2단지 - 계약서류안내</h1>
+            <h1 className={styles.screenReaderOnly}>브레인시티 메디스파크 로제비앙  - 계약서류안내</h1>
 			<p className={styles.screenReaderOnly}>계약서류안내 페이지지에서는 분양 당첨 후 필요한 서류들에 대해 안내합니다. 계약 체결을 위해 준비해야 할 서류 목록과 함께, 각 서류의 제출 기한과 정확한 준비 방법을 안내하여 고객들이 혼동 없이 준비할 수 있도록 돕습니다.</p>
 
 			<div className={styles.textBox}>
-				<div>평택 반도체클러스터의 눈부신 가치 위에</div>
-				<div>브레인시티 메디스파크 로제비앙모아엘가의 새로운 자부심으로 찾아옵니다.</div>
+				<div>평택의 눈부신 가치 위에</div>
+				<div>브레인시티 메디스파크 로제비앙의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 isImageVisible 상태 적용 */}
-			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="브레인시티 메디스파크 로제비앙 2단지 계약서류안내-image1" />
+			<img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="브레인시티 메디스파크 로제비앙 계약서류안내-image1" />
 
 			<Footer /> 
 		</div>

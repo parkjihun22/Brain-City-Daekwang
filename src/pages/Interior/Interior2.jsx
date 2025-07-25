@@ -64,56 +64,57 @@ const Interior2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>브레인시티 메디스파크 로제비앙모아엘가 - 84A 인테리어</title>
+        <title>브레인시티 메디스파크 로제비앙 - 84A 인테리어</title>
         <meta
           name="description"
-          content="84A타입의 인테리어 페이지에서는 브레인시티 메디스파크 로제비앙모아엘가의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
+          content="84A타입의 인테리어 페이지에서는 브레인시티 메디스파크 로제비앙의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
 "
         />
-        <meta name="keywords" content="브레인시티 메디스파크 로제비앙, 브레인시티로제비앙모아엘가, 브레인시티로제비앙모아엘가모델하우스" />
+       <meta name="keywords"
+        content="브레인시티메디스파크, 브레인시티메디스파크로제비앙, 브레인시티메디스파크대광로제비앙" />
         <link
           rel="canonical"
-          href="https://leecols.kr/Interior/84A"
+          href="https://www.leecols.kr/Interior/84A"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="브레인시티 메디스파크 로제비앙모아엘가 - 84A인테리어"
+          content="브레인시티 메디스파크 로제비앙 - 84A인테리어"
         />
         <meta
           property="og:description"
-          content="84A타입의 인테리어 페이지에서는 브레인시티 메디스파크 로제비앙모아엘가의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
+          content="84A타입의 인테리어 페이지에서는 브레인시티 메디스파크 로제비앙의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
 "
         />
         <meta
           property="og:image"
-          content="https://leecols.kr/Main1.png"
+          content="https://www.leecols.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://leecols.kr/Interior/84A"
+          content="https://www.leecols.kr/Interior/84A"
         />
-        <meta property="og:site_name" content="브레인시티 메디스파크 로제비앙모아엘가" />
+        <meta property="og:site_name" content="브레인시티 메디스파크 로제비앙" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="브레인시티 메디스파크 로제비앙모아엘가 - 84A인테리어"
+          content="브레인시티 메디스파크 로제비앙 - 84A인테리어"
         />
         <meta
           name="twitter:description"
-          content="84A타입의 인테리어 페이지에서는 브레인시티 메디스파크 로제비앙모아엘가의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
+          content="84A타입의 인테리어 페이지에서는 브레인시티 메디스파크 로제비앙의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
 "
         />
         <meta
           name="twitter:image"
-          content="https://leecols.kr/Main1.png"
+          content="https://www.leecols.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://leecols.kr/Interior/84A"
+          content="https://www.leecols.kr/Interior/84A"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -122,10 +123,10 @@ const Interior2 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "브레인시티 메디스파크 로제비앙모아엘가 - 84A인테리어",
-											"description": "84A타입의 인테리어 페이지에서는 브레인시티 메디스파크 로제비앙모아엘가의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
+											"name": "브레인시티 메디스파크 로제비앙 - 84A인테리어",
+											"description": "84A타입의 인테리어 페이지에서는 브레인시티 메디스파크 로제비앙의 고급 인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 인테리어 요소들이 결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의 인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수 있습니다.
 ",
-											"url": "https://leecols.kr/Interior/84A"
+											"url": "https://www.leecols.kr/Interior/84A"
 										}
 										`}
         </script>
@@ -139,10 +140,10 @@ const Interior2 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        브레인시티 메디스파크 로제비앙모아엘가 - 84A 인테리어
+        브레인시티 메디스파크 로제비앙 - 84A 인테리어
       </h1>
       <p className={styles.screenReaderOnly}>
-        84A타입의 84A인테리어 페이지에서는 브레인시티 메디스파크 로제비앙모아엘가의 고급
+        84A타입의 84A인테리어 페이지에서는 브레인시티 메디스파크 로제비앙의 고급
         84A인테리어 디자인을 소개합니다. 세련된 디자인과 최첨단 84A인테리어 요소들이
         결합되어, 입주자들에게 고급스러움과 편안함을 제공합니다. 각 공간의
         84A인테리어 스타일과 자재를 확인하여 더욱 매력적인 주거 공간을 발견할 수
@@ -150,7 +151,7 @@ const Interior2 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>대우건설 모아엘가, 반도체클러스터터의 눈부신 가치 위에</div>
+        <div>브레인시티 메디스파크, 평택의 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
@@ -158,7 +159,7 @@ const Interior2 = () => {
       <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="브레인시티 메디스파크 로제비앙모아엘가 84A 인테리어 안내 이미지"
+				alt="브레인시티 메디스파크 로제비앙 84A 인테리어 안내 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

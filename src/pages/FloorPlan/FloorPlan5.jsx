@@ -10,7 +10,7 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/FloorPlan/FloorPlan5/page1.jpg"
+import page1 from "../../assets/FloorPlan/FloorPlan5/img_unit_05.jpg"
 
 
 const FloorPlan5 = () => {
@@ -19,7 +19,7 @@ const FloorPlan5 = () => {
 		{ title: "59B", url: "/FloorPlan/59B" },
 		{ title: "84A", url: "/FloorPlan/84A" },
 		{ title: "84B", url: "/FloorPlan/84B" },
-		{ title: "84C", url: "/FloorPlan/114A" },
+		{ title: "101㎡", url: "/FloorPlan/114A" },
 		// { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
 		{ title: "E-모델하우스", url: "/FloorPlan/Emodel" },
 	];
@@ -65,15 +65,15 @@ const FloorPlan5 = () => {
 			<MenuBar contents={menuContents} />
 
 			<div className={styles.textBox}>
-				<div>평택 반도체클러스터의 눈부신 가치 위에</div>
-				<div>모아엘가의 새로운 자부심으로 찾아옵니다.</div>
+				<div>평택의 눈부신 가치 위에</div>
+				<div>로제비앙의 새로운 자부심으로 찾아옵니다.</div>
 			</div>
 
 			{/* 이미지에 애니메이션 효과 추가 */}
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="브레인시티 로제비앙모아엘가 2단지 84C 평면안내 이미지"
+				alt="브레인시티 메디스파크 로제비앙 84C 평면안내 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

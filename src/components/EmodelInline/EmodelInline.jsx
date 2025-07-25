@@ -3,21 +3,20 @@ import styles from "./EmodelInline.module.scss";
 
 // Emodel.jsx 에 정의된 탭과 URL을 그대로 복사합니다.
 const menuContents = [
-  { title: "59A", key: "59A" },
-  { title: "59B", key: "59B" },
   { title: "84A", key: "84A" },
   { title: "84B", key: "84B" },
+  { title: "101A", key: "101" },
+
 ];
 
 const vrUrls = {
-  "59A": "https://www.prugio.com/hb/2025/onecluster/vr/59a.html",
-  "59B": "https://www.prugio.com/hb/2025/onecluster/vr/59b.html",
-  "84A": "https://www.prugio.com/hb/2025/onecluster/vr/84a.html",
-  "84B": "https://www.prugio.com/hb/2025/onecluster/vr/84b.html",
+  "84A": "https://xn--2z1b09co8b02fdohsjj9y9tsrkfdi.com/vr/tour1.html",
+  "84B": "https://xn--2z1b09co8b02fdohsjj9y9tsrkfdi.com/vr/tour2.html",
+  "101": "https://xn--2z1b09co8b02fdohsjj9y9tsrkfdi.com/vr/tour3.html",
 };
 
 export default function EmodelInline() {
-  const [selectedType, setSelectedType] = useState("59A");
+  const [selectedType, setSelectedType] = useState("84A");
 
   return (
     <div className={styles.inlineWrapper}>

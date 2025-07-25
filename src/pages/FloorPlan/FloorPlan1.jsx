@@ -10,7 +10,7 @@ import FixIcon from "../../components/FixIcon/FixIcon";
 import HelmetCOM from "../../components/HelmetCOM/HelmetCOM";
 import { Helmet } from "react-helmet-async";
 
-import page1 from "../../assets/FloorPlan/FloorPlan1/page1.jpg"
+import page1 from "../../assets/FloorPlan/FloorPlan1/img_unit_01.jpg"
 
 const FloorPlan1 = () => {
   const menuContents = [
@@ -18,7 +18,7 @@ const FloorPlan1 = () => {
 		{ title: "59B", url: "/FloorPlan/59B" },
 		{ title: "84A", url: "/FloorPlan/84A" },
 		{ title: "84B", url: "/FloorPlan/84B" },
-		{ title: "84C", url: "/FloorPlan/114A" },
+		{ title: "101㎡", url: "/FloorPlan/114A" },
 		// { title: "세대안내영상", url: "/FloorPlan/videos" }, // 세대안내영상 링크
 		{ title: "E-모델하우스", url: "/FloorPlan/Emodel" },
   ];
@@ -66,56 +66,57 @@ const FloorPlan1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>브레인시티 메디스파크 로제비앙모아엘가 - 평면안내</title>
+        <title>브레인시티 메디스파크 로제비앙 - 평면안내</title>
         <meta
           name="description"
-          content="브레인시티 메디스파크 로제비앙모아엘가의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
+          content="브레인시티 메디스파크 로제비앙의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
 "
         />
-        <meta name="keywords" content="브레인시티 메디스파크 로제비앙, 브레인시티로제비앙모아엘가, 브레인시티로제비앙모아엘가모델하우스" />
+       <meta name="keywords"
+        content="브레인시티메디스파크, 브레인시티메디스파크로제비앙, 브레인시티메디스파크대광로제비앙" />
         <link
           rel="canonical"
-          href="https://leecols.kr/FloorPlan/59A"
+          href="https://www.leecols.kr/FloorPlan/59A"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="브레인시티 메디스파크 로제비앙모아엘가 - 평면안내"
+          content="브레인시티 메디스파크 로제비앙 - 평면안내"
         />
         <meta
           property="og:description"
-          content="브레인시티 메디스파크 로제비앙모아엘가의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
+          content="브레인시티 메디스파크 로제비앙의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
 "
         />
         <meta
           property="og:image"
-          content="https://leecols.kr/Main1.png"
+          content="https://www.leecols.kr/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://leecols.kr/FloorPlan/59A"
+          content="https://www.leecols.kr/FloorPlan/59A"
         />
-        <meta property="og:site_name" content="브레인시티 메디스파크 로제비앙모아엘가" />
+        <meta property="og:site_name" content="브레인시티 메디스파크 로제비앙" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="브레인시티 메디스파크 로제비앙모아엘가 - 평면안내"
+          content="브레인시티 메디스파크 로제비앙 - 평면안내"
         />
         <meta
           name="twitter:description"
-          content="브레인시티 메디스파크 로제비앙모아엘가의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
+          content="브레인시티 메디스파크 로제비앙의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
 "
         />
         <meta
           name="twitter:image"
-          content="https://leecols.kr/Main1.png"
+          content="https://www.leecols.kr/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://leecols.kr/FloorPlan/59A"
+          content="https://www.leecols.kr/FloorPlan/59A"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -124,10 +125,10 @@ const FloorPlan1 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "브레인시티 메디스파크 로제비앙모아엘가 - 평면안내",
-											"description": "브레인시티 메디스파크 로제비앙모아엘가의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
+											"name": "브레인시티 메디스파크 로제비앙 - 평면안내",
+											"description": "브레인시티 메디스파크 로제비앙의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
 ",
-											"url": "https://leecols.kr/FloorPlan/59A"
+											"url": "https://www.leecols.kr/FloorPlan/59A"
 										}
 										`}
         </script>
@@ -141,25 +142,25 @@ const FloorPlan1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        평택 브레인시티 메디스파크 로제비앙모아엘가 - 59A평면안내
+       브레인시티 메디스파크 로제비앙 - 59A평면안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        59타입의평면 안내 페이지는 평택 브레인시티 메디스파크 로제비앙모아엘가의 각 아파트
+        59타입의평면 안내 페이지는  브레인시티 메디스파크 로제비앙의 각 아파트
         평면도를 제공합니다. 고객들이 아파트의 구조를 정확히 이해하고, 자신의
         생활 스타일에 맞는 평형을 선택할 수 있도록 돕습니다. 다양한 평면 설계를
         확인하고 자신에게 맞는 최적의 공간을 찾아보세요.
       </p>
 
       <div className={styles.textBox}>
-        <div>평택 반도체클러스터의 눈부신 가치 위에</div>
-        <div>모아엘가의 새로운 자부심으로 찾아옵니다.</div>
+        <div>평택의 눈부신 가치 위에</div>
+        <div>로제비앙의 새로운 자부심으로 찾아옵니다.</div>
       </div>
 
       {/* 이미지에 애니메이션 효과 추가 */}
       <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="브레인시티 메디스파크 로제비앙모아엘가 59타입의평면안내이미지"
+				alt="브레인시티 메디스파크 로제비앙 59타입의평면안내이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

@@ -11,20 +11,20 @@ import { Helmet } from "react-helmet-async";
 
 const Emodel = () => {
   const menuContents = [
-    { title: "59A", key: "59A" },
-    { title: "59B", key: "59B" },
     { title: "84A", key: "84A" },
     { title: "84B", key: "84B" },
+    { title: "101", key: "101" },
+
   ];
 
   const vrUrls = {
-    "59A": "https://www.prugio.com/hb/2025/onecluster/vr/59a.html",
-    "59B": "https://www.prugio.com/hb/2025/onecluster/vr/59b.html",
-    "84A": "https://www.prugio.com/hb/2025/onecluster/vr/84a.html",
-    "84B": "https://www.prugio.com/hb/2025/onecluster/vr/84b.html",
+    "84A": "https://xn--2z1b09co8b02fdohsjj9y9tsrkfdi.com/vr/tour1.html",
+    "84B": "https://xn--2z1b09co8b02fdohsjj9y9tsrkfdi.com/vr/tour2.html",
+    "101": "https://xn--2z1b09co8b02fdohsjj9y9tsrkfdi.com/vr/tour3.html",
+
   };
 
-  const [selectedType, setSelectedType] = useState("59A");
+  const [selectedType, setSelectedType] = useState("84A");
   const { pathname } = useLocation();
   const [isScroll, setIsScroll] = useState(false);
 
@@ -47,19 +47,19 @@ const Emodel = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="robots" content="index, follow" />
-        <title>브레인시티 메디스파크 로제비앙모아엘가 E-모델하우스</title>
-        <meta name="description" content="브레인시티 메디스파크 로제비앙모아엘가의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
-        <meta name="keywords" content="평택메디스파크로제비앙모아엘가, E-모델하우스, 온라인모델하우스" />
-        <link rel="canonical" href="https://leecols.kr/FloorPlan/Emodel" />
-        <meta property="og:title" content="브레인시티 메디스파크 로제비앙모아엘가 - E-모델하우스" />
-        <meta property="og:description" content="브레인시티 메디스파크 로제비앙모아엘가의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
-        <meta property="og:image" content="https://leecols.kr/Main1.png" />
-        <meta property="og:url" content="https://leecols.kr/FloorPlan/Emodel" />
-        <meta property="og:site_name" content="브레인시티 메디스파크 로제비앙모아엘가" />
+        <title>브레인시티 메디스파크 로제비앙 - E-모델하우스</title>
+        <meta name="description" content="브레인시티 메디스파크 로제비앙의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
+        <meta name="keywords" content="브레인시티 메디스파크 로제비앙, 브레인시티 메디스파크 로제비앙 모아엘가, E-모델하우스, 온라인모델하우스" />
+        <link rel="canonical" href="https://www.leecols.kr/FloorPlan/Emodel" />
+        <meta property="og:title" content="브레인시티 메디스파크 로제비앙 - E-모델하우스" />
+        <meta property="og:description" content="브레인시티 메디스파크 로제비앙의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
+        <meta property="og:image" content="https://www.leecols.kr/Main1.png" />
+        <meta property="og:url" content="https://www.leecols.kr/FloorPlan/Emodel" />
+        <meta property="og:site_name" content="브레인시티 메디스파크 로제비앙" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="브레인시티 메디스파크 로제비앙모아엘가 - E-모델하우스" />
-        <meta name="twitter:description" content="브레인시티 메디스파크 로제비앙모아엘가의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
-        <meta name="twitter:image" content="https://leecols.kr/Main1.png" />
+        <meta name="twitter:title" content="브레인시티 메디스파크 로제비앙 - E-모델하우스" />
+        <meta name="twitter:description" content="브레인시티 메디스파크 로제비앙의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
+        <meta name="twitter:image" content="https://www.leecols.kr/Main1.png" />
       </Helmet>
 
       <Header isChanged={isScroll} />
@@ -67,7 +67,7 @@ const Emodel = () => {
       <Bener title="E-모델하우스" />
       <MenuBar contents={menuContents} />
 
-      <h1 className={styles.screenReaderOnly}>브레인시티 메디스파크 로제비앙모아엘가 - E-모델하우스 안내</h1>
+      <h1 className={styles.screenReaderOnly}>브레인시티 메디스파크 로제비앙 - E-모델하우스 안내</h1>
 
       <div className={styles.tabMenu}>
         {menuContents.slice(0, 5).map((tab, idx) => (
