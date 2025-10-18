@@ -60,10 +60,10 @@ const ComplexGuide3 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>브레인시티 메디스파크 로제비앙 - 커뮤니티</title>
+        <title>브레인시티 메디스파크 - 커뮤니티</title>
         <meta
           name="description"
-          content="브레인시티 메디스파크 로제비앙의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
+          content="브레인시티 메디스파크의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
 "
         />
        <meta name="keywords"
@@ -76,11 +76,11 @@ const ComplexGuide3 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="브레인시티 메디스파크 로제비앙 - 커뮤니티"
+          content="브레인시티 메디스파크 - 커뮤니티"
         />
         <meta
           property="og:description"
-          content="브레인시티 메디스파크 로제비앙의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
+          content="브레인시티 메디스파크의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
 "
         />
         <meta
@@ -91,17 +91,17 @@ const ComplexGuide3 = () => {
           property="og:url"
           content="https://www.leecols.kr/ComplexGuide/community"
         />
-        <meta property="og:site_name" content="브레인시티 메디스파크 로제비앙" />
+        <meta property="og:site_name" content="브레인시티 메디스파크" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="브레인시티 메디스파크 로제비앙 - 커뮤니티"
+          content="브레인시티 메디스파크 - 커뮤니티"
         />
         <meta
           name="twitter:description"
-          content="브레인시티 메디스파크 로제비앙의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
+          content="브레인시티 메디스파크의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
 "
         />
         <meta
@@ -119,8 +119,8 @@ const ComplexGuide3 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "브레인시티 메디스파크 로제비앙 - 커뮤니티",
-											"description": "브레인시티 메디스파크 로제비앙의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
+											"name": "브레인시티 메디스파크 - 커뮤니티",
+											"description": "브레인시티 메디스파크의 커뮤니티 시설을 소개합니다. 피트니스 센터, 독서실, 카페 등 다양한 편의시설이 마련되어 있어 입주민의 생활 품격을 높이고, 편리함을 제공합니다.
 ",
 											"url": "https://www.leecols.kr/ComplexGuide/community"
 										}
@@ -134,10 +134,10 @@ const ComplexGuide3 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        브레인시티 메디스파크 로제비앙 - 커뮤니티
+        브레인시티 메디스파크 - 커뮤니티
       </h1>
       <p className={styles.screenReaderOnly}>
-        브레인시티 메디스파크 로제비앙의 커뮤니티 페이지에서는 단지 내 다양한
+        브레인시티 메디스파크의 커뮤니티 페이지에서는 단지 내 다양한
         커뮤니티 시설을 소개합니다. 헬스장, 독서실, 카페 등 주민들의 편리한
         생활을 위한 다양한 시설들이 준비되어 있습니다. 이러한 시설들이
         입주민들의 삶의 질을 높이고, 더 나은 공동체 생활을 만들어주는 역할을
@@ -145,7 +145,7 @@ const ComplexGuide3 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>브레인시티 메디스파크 로제비앙이 눈부신 가치 위에</div>
+        <div>브레인시티 메디스파크이 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
@@ -153,7 +153,7 @@ const ComplexGuide3 = () => {
       {/* <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="브레인시티 메디스파크 로제비앙 커뮤니티 안내 -image1"
+				alt="브레인시티 메디스파크 커뮤니티 안내 -image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/> */}
 

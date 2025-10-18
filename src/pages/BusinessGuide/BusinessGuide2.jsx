@@ -61,10 +61,10 @@ const BusinessGuide2 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>브레인시티 메디스파크 로제비앙 - 분양일정</title>
+        <title>브레인시티 메디스파크 - 분양일정</title>
         <meta
           name="description"
-          content="브레인시티 메디스파크 로제비앙의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
+          content="브레인시티 메디스파크의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
 "
         />
        <meta name="keywords"
@@ -77,11 +77,11 @@ const BusinessGuide2 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="브레인시티 메디스파크 로제비앙 - 분양일정"
+          content="브레인시티 메디스파크 - 분양일정"
         />
         <meta
           property="og:description"
-          content="브레인시티 메디스파크 로제비앙의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
+          content="브레인시티 메디스파크의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
 "
         />
         <meta
@@ -92,17 +92,17 @@ const BusinessGuide2 = () => {
           property="og:url"
           content="https://www.leecols.kr/BusinessGuide/plan"
         />
-        <meta property="og:site_name" content="브레인시티 메디스파크 로제비앙" />
+        <meta property="og:site_name" content="브레인시티 메디스파크" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="브레인시티 메디스파크 로제비앙 - 분양일정"
+          content="브레인시티 메디스파크 - 분양일정"
         />
         <meta
           name="twitter:description"
-          content="브레인시티 메디스파크 로제비앙의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
+          content="브레인시티 메디스파크의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
 "
         />
         <meta
@@ -120,8 +120,8 @@ const BusinessGuide2 = () => {
                                         {
                                             "@context": "https://schema.org",
                                             "@type": "WebPage",
-                                            "name": "브레인시티 메디스파크 로제비앙 - 분양일정",
-                                            "description": "브레인시티 메디스파크 로제비앙의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
+                                            "name": "브레인시티 메디스파크 - 분양일정",
+                                            "description": "브레인시티 메디스파크의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
 ",
                                             "url": "https://www.leecols.kr/BusinessGuide/plan"
                                         }
@@ -135,18 +135,18 @@ const BusinessGuide2 = () => {
             <Bener title="사업개요" />
             <MenuBar contents={menuContents} />
 
-            <h1 className={styles.screenReaderOnly}>브레인시티 메디스파크 로제비앙 - 분양일정</h1>
+            <h1 className={styles.screenReaderOnly}>브레인시티 메디스파크 - 분양일정</h1>
             <p className={styles.screenReaderOnly}>
-			브레인시티 메디스파크 로제비앙의 분양 일정은 중요한 날짜들을 안내하는 핵심 정보입니다.
+			브레인시티 메디스파크의 분양 일정은 중요한 날짜들을 안내하는 핵심 정보입니다.
             </p>
 
             <div className={styles.textBox}>
                 <div>평택의 눈부신 가치 위에</div>
-                <div>브레인시티 메디스파크 로제비앙의 새로운 자부심으로 찾아옵니다.</div>
+                <div>브레인시티 메디스파크의 새로운 자부심으로 찾아옵니다.</div>
             </div>
 
             {/* ✅ 기존 이미지 부분 주석 처리하고 Ready 컴포넌트 표시 */}
-            <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="브레인시티 메디스파크 로제비앙 분양일정안내-image1" />
+            <img className={`${styles.image4} ${isImageVisible ? styles.visible : ''}`} src={page1} alt="브레인시티 메디스파크 분양일정안내-image1" />
             <div className={styles.readyContainer}>
            
             </div>

@@ -59,10 +59,10 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>브레인시티 메디스파크 로제비앙 - 호수배치도</title>
+        <title>브레인시티 메디스파크 - 호수배치도</title>
         <meta
           name="description"
-          content="브레인시티 메디스파크 로제비앙의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+          content="브레인시티 메디스파크의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
 "
         />
        <meta name="keywords"
@@ -75,11 +75,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="브레인시티 메디스파크 로제비앙 - 호수배치도"
+          content="브레인시티 메디스파크 - 호수배치도"
         />
         <meta
           property="og:description"
-          content="브레인시티 메디스파크 로제비앙의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+          content="브레인시티 메디스파크의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
 "
         />
         <meta
@@ -90,17 +90,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://www.leecols.kr/ComplexGuide/detailintro"
         />
-        <meta property="og:site_name" content="브레인시티 메디스파크 로제비앙" />
+        <meta property="og:site_name" content="브레인시티 메디스파크" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="브레인시티 메디스파크 로제비앙 - 호수배치도"
+          content="브레인시티 메디스파크 - 호수배치도"
         />
         <meta
           name="twitter:description"
-          content="브레인시티 메디스파크 로제비앙의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+          content="브레인시티 메디스파크의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
 "
         />
         <meta
@@ -118,8 +118,8 @@ const ComplexGuide1 = () => {
 										{
 											"@context": "https://schema.org",
 											"@type": "WebPage",
-											"name": "브레인시티 메디스파크 로제비앙 - 호수배치도",
-											"description": "브레인시티 메디스파크 로제비앙의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
+											"name": "브레인시티 메디스파크 - 호수배치도",
+											"description": "브레인시티 메디스파크의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
 ",
 											"url": "https://www.leecols.kr/ComplexGuide/detailintro"
 										}
@@ -132,7 +132,7 @@ const ComplexGuide1 = () => {
       <Bener title="단지안내" />
       <MenuBar contents={menuContents} />
       <h1 className={styles.screenReaderOnly}>
-        브레인시티 메디스파크 로제비앙 - 호수배치도
+        브레인시티 메디스파크 - 호수배치도
       </h1>
       <p className={styles.screenReaderOnly}>
         호수 배치도 페이지는 각 세대의 위치와 평면도를 제공합니다. 고객들이
@@ -141,7 +141,7 @@ const ComplexGuide1 = () => {
       </p>
 
       <div className={styles.textBox}>
-        <div>브레인시티 메디스파크 로제비앙가 눈부신 가치 위에</div>
+        <div>브레인시티 메디스파크가 눈부신 가치 위에</div>
         <div>새로운 자부심으로 찾아옵니다.</div>
       </div>
 
@@ -149,7 +149,7 @@ const ComplexGuide1 = () => {
       <img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="브레인시티 메디스파크 로제비앙 호수배치도-image1"
+				alt="브레인시티 메디스파크 호수배치도-image1"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 

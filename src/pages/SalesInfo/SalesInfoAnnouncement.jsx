@@ -78,16 +78,16 @@ const ComplexGuide1 = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>브레인시티 메디스파크 로제비앙 - 모집공고안내</title>
+        <title>브레인시티 메디스파크 - 모집공고안내</title>
         <meta
           name="description"
-          content="브레인시티 메디스파크 로제비앙의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
+          content="브레인시티 메디스파크의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
 
 "
         />
         <meta
           name="keywords"
-          content="브레인시티 메디스파크 로제비앙, 브레인시티 메디스파크 로제비앙, 브레인시티 메디스파크 로제비앙모델하우스"
+          content="브레인시티 메디스파크, 브레인시티 메디스파크, 브레인시티 메디스파크모델하우스"
         />
         <link
           rel="canonical"
@@ -97,11 +97,11 @@ const ComplexGuide1 = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="브레인시티 메디스파크 로제비앙 - 모집공고안내"
+          content="브레인시티 메디스파크 - 모집공고안내"
         />
         <meta
           property="og:description"
-          content="브레인시티 메디스파크 로제비앙의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
+          content="브레인시티 메디스파크의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
 
 "
         />
@@ -113,17 +113,17 @@ const ComplexGuide1 = () => {
           property="og:url"
           content="https://www.leecols.kr/SalesInfo/announcement"
         />
-        <meta property="og:site_name" content="브레인시티 메디스파크 로제비앙" />
+        <meta property="og:site_name" content="브레인시티 메디스파크" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="브레인시티 메디스파크 로제비앙 - 모집공고안내"
+          content="브레인시티 메디스파크 - 모집공고안내"
         />
         <meta
           name="twitter:description"
-          content="브레인시티 메디스파크 로제비앙의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
+          content="브레인시티 메디스파크의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
 
 "
         />
@@ -142,8 +142,8 @@ const ComplexGuide1 = () => {
                                         {
                                             "@context": "https://schema.org",
                                             "@type": "WebPage",
-                                            "name": "브레인시티 메디스파크 로제비앙 - 모집공고안내",
-                                            "description": "브레인시티 메디스파크 로제비앙의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
+                                            "name": "브레인시티 메디스파크 - 모집공고안내",
+                                            "description": "브레인시티 메디스파크의 모집 공고는 분양 전 단계에서 중요한 안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건, 필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을 준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이 체크하세요.
 
 ",
                                             "url": "https://www.leecols.kr/SalesInfo/announcement"
@@ -157,10 +157,10 @@ const ComplexGuide1 = () => {
       <MenuBar contents={menuContents} />
       {/* <h1> 태그를 사용하여 페이지 제목 설정 (SEO 최적화) */}
       <h1 className={styles.screenReaderOnly}>
-        브레인시티 메디스파크 로제비앙- 모집공고안내
+        브레인시티 메디스파크- 모집공고안내
       </h1>
       <p className={styles.screenReaderOnly}>
-        브레인시티 메디스파크 로제비앙모집 공고는 분양 전 단계에서 중요한
+        브레인시티 메디스파크모집 공고는 분양 전 단계에서 중요한
         안내문입니다. 이 페이지에서는 모집 공고에 포함된 중요한 날짜, 자격 조건,
         필요한 서류 등을 명확하게 안내하여 예비 청약자들이 혼동 없이 청약을
         준비할 수 있도록 지원합니다. 모집 공고를 통해 필수 정보들을 빠짐없이
@@ -168,12 +168,12 @@ const ComplexGuide1 = () => {
       </p>
       <div className={styles.textBox}>
         <div>입주자 모집공고안내를 확인하세요</div>
-        <div>브레인시티 메디스파크 로제비앙</div>
+        <div>브레인시티 메디스파크</div>
       </div>
       <img
         className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
         src={page1}
-        alt="브레인시티 메디스파크 로제비앙모집공고안내-image1"
+        alt="브레인시티 메디스파크모집공고안내-image1"
         onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
          />
       {/* 입주자 모집공고 PDF로 보기 버튼 */}
@@ -182,7 +182,7 @@ const ComplexGuide1 = () => {
                 <span>모집공고 PDF<br/>확인하기</span>
             </button>
 
-      브레인시티 메디스파크 로제비앙
+      브레인시티 메디스파크
       {/* 로딩 중일 때 표시할 스피너 */}
       {isLoading && (
         <div className={styles.loader}>

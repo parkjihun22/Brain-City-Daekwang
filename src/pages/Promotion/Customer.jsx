@@ -67,7 +67,7 @@ export default function Customer() {
       <FixIcon />
 
       {/* 배너 */}
-      <Bener title="브레인시티 메디스파크 로제비앙" />
+      <Bener title="브레인시티 메디스파크" />
 
       {/* 네비게이션 탭 */}
       <MenuBar contents={promoMenu} />
@@ -77,7 +77,7 @@ export default function Customer() {
         {/* ─── 좌측 카드 ─── */}
         <div className={styles.customerLeft}>
           <div className={styles.textBlock}>
-            <h2 className={styles.projectName}>브레인시티 메디스파크 로제비앙</h2>
+            <h2 className={styles.projectName}>브레인시티 메디스파크</h2>
             <h3 className={styles.pageTitle}>방문예약등록</h3>
           </div>
           <img

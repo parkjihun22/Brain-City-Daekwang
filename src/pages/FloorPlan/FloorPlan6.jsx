@@ -59,7 +59,7 @@ const FloorPlan6 = () => {
 			<Header isChanged={isScroll} />
 			<FixIcon />
 
-			<Bener title="브레인시티 메디스파크 로제비앙 119B 평면image" />
+			<Bener title="브레인시티 메디스파크 119B 평면image" />
 
 			<MenuBar contents={menuContents} />
 

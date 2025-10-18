@@ -68,10 +68,10 @@ const FloorPlanVideos = () => {
         <meta name="robots" content="index, follow" />
 
         {/* SEO 최적화를 위한 메타 태그 */}
-        <title>브레인시티 메디스파크 로제비앙 - 평면안내</title>
+        <title>브레인시티 메디스파크 - 평면안내</title>
         <meta
           name="description"
-          content="세대안내영상 안내 페이지는 브레인시티 메디스파크 로제비앙의 각 아파트 세대안내영상을 제공합니다.
+          content="세대안내영상 안내 페이지는 브레인시티 메디스파크의 각 아파트 세대안내영상을 제공합니다.
 "
         />
        <meta name="keywords"
@@ -84,11 +84,11 @@ const FloorPlanVideos = () => {
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
         <meta
           property="og:title"
-          content="브레인시티 메디스파크 로제비앙 - 평면안내"
+          content="브레인시티 메디스파크 - 평면안내"
         />
         <meta
           property="og:description"
-          content="세대안내영상 안내 페이지는 브레인시티 메디스파크 로제비앙의 각 아파트 세대안내영상을 제공합니다.
+          content="세대안내영상 안내 페이지는 브레인시티 메디스파크의 각 아파트 세대안내영상을 제공합니다.
 "
         />
         <meta
@@ -99,17 +99,17 @@ const FloorPlanVideos = () => {
           property="og:url"
           content="https://www.leecols.kr/FloorPlan/videos"
         />
-        <meta property="og:site_name" content="브레인시티 메디스파크 로제비앙" />
+        <meta property="og:site_name" content="브레인시티 메디스파크" />
 
         {/* Twitter 카드 설정 */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="브레인시티 메디스파크 로제비앙 - 평면안내"
+          content="브레인시티 메디스파크 - 평면안내"
         />
         <meta
           name="twitter:description"
-          content="세대안내영상 안내 페이지는 브레인시티 메디스파크 로제비앙의 각 아파트 세대안내영상을 제공합니다.
+          content="세대안내영상 안내 페이지는 브레인시티 메디스파크의 각 아파트 세대안내영상을 제공합니다.
 "
         />
         <meta
@@ -127,8 +127,8 @@ const FloorPlanVideos = () => {
                     {
                       "@context": "https://schema.org",
                       "@type": "WebPage",
-                      "name": "브레인시티 메디스파크 로제비앙 - 평면안내",
-                      "description": "세대안내영상 안내 페이지는 브레인시티 메디스파크 로제비앙의 각 아파트 세대안내영상을 제공합니다.
+                      "name": "브레인시티 메디스파크 - 평면안내",
+                      "description": "세대안내영상 안내 페이지는 브레인시티 메디스파크의 각 아파트 세대안내영상을 제공합니다.
 ",
                       "url": "https://www.leecols.kr/FloorPlan/videos"
                     }
@@ -142,7 +142,7 @@ const FloorPlanVideos = () => {
       <MenuBar contents={menuContents} />
 
       <h1 className={styles.screenReaderOnly}>
-        브레인시티 메디스파크 로제비앙 - 홍보영상
+        브레인시티 메디스파크 - 홍보영상
       </h1>
       <p className={styles.screenReaderOnly}>세대안내영상 안내 페이지입니다.</p>
 

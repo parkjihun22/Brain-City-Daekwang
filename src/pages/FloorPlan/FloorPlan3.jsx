@@ -73,7 +73,7 @@ const FloorPlan3 = () => {
 			<img
 				className={`${styles.image2} ${isImage2Loaded ? styles.showImage2 : ''}`}
 				src={page1}
-				alt="브레인시티 메디스파크 로제비앙 84A 평면안내 이미지"
+				alt="브레인시티 메디스파크 84A 평면안내 이미지"
 				onLoad={handleImageLoad}  // 이미지 로드 후 애니메이션 실행
 			/>
 
