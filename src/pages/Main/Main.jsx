@@ -231,7 +231,7 @@ const handleInputChange = (e) => {
        <meta name="keywords"
         content="브레인시티메디스파크, 브레인시티메디스파크로제비앙, 브레인시티메디스파크대광로제비앙" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.leecols.kr/" />
+        <link rel="canonical" href="https://www.beyinegzersizi.com/" />
 
         {/* 모바일 친화성을 위한 추가 태그 */}
         <meta name="HandheldFriendly" content="True" />
@@ -246,11 +246,11 @@ const handleInputChange = (e) => {
           property="og:description"
           content="브레인시티 메디스파크ㅣ☎️(대표)1533-8848ㅣ브레인시티 메디스파크ㅣ견본주택ㅣ모델하우스ㅣ위치ㅣ청약ㅣ분양ㅣ분양가ㅣ공급정보ㅣ잔여세대문의ㅣ고객센터ㅣ방문예약"
         />
-        <meta property="og:url" content="https://www.leecols.kr/" />
+        <meta property="og:url" content="https://www.beyinegzersizi.com/" />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://www.leecols.kr/Main1.png" // 실제 메인 이미지 URL로 변경하세요.
+          content="https://www.beyinegzersizi.com/Main1.png" // 실제 메인 이미지 URL로 변경하세요.
         />
 
         {/* Twitter 카드 설정 */}
@@ -265,7 +265,7 @@ const handleInputChange = (e) => {
         />
         <meta
           name="twitter:image"
-          content="https://www.leecols.kr/Main1.png" // 실제 이미지 URL로 변경하세요.
+          content="https://www.beyinegzersizi.com/Main1.png" // 실제 이미지 URL로 변경하세요.
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도를 높이기 위한 스키마 마크업 */}
@@ -276,8 +276,8 @@ const handleInputChange = (e) => {
         "@type": "ApartmentComplex",
         "name": "브레인시티 메디스파크",
         "description": "브랜드 평판 1위 프리미엄 아파트. 방문 예약 시 신세계상품권 증정 등 다양한 혜택을 제공합니다.",
-        "url": "https://www.leecols.kr/",
-        "image": "https://www.leecols.kr/Main1.png",
+        "url": "https://www.beyinegzersizi.com/",
+        "image": "https://www.beyinegzersizi.com/Main1.png",
         "telephone": "1533-8848",
         "address": {
           "@type": "PostalAddress",

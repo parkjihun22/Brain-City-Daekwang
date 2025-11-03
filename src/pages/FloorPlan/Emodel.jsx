@@ -50,16 +50,16 @@ const Emodel = () => {
         <title>브레인시티 메디스파크 - E-모델하우스</title>
         <meta name="description" content="브레인시티 메디스파크의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
         <meta name="keywords" content="브레인시티 메디스파크, 브레인시티 메디스파크 모아엘가, E-모델하우스, 온라인모델하우스" />
-        <link rel="canonical" href="https://www.leecols.kr/FloorPlan/Emodel" />
+        <link rel="canonical" href="https://www.beyinegzersizi.com/FloorPlan/Emodel" />
         <meta property="og:title" content="브레인시티 메디스파크 - E-모델하우스" />
         <meta property="og:description" content="브레인시티 메디스파크의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
-        <meta property="og:image" content="https://www.leecols.kr/Main1.png" />
-        <meta property="og:url" content="https://www.leecols.kr/FloorPlan/Emodel" />
+        <meta property="og:image" content="https://www.beyinegzersizi.com/Main1.png" />
+        <meta property="og:url" content="https://www.beyinegzersizi.com/FloorPlan/Emodel" />
         <meta property="og:site_name" content="브레인시티 메디스파크" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="브레인시티 메디스파크 - E-모델하우스" />
         <meta name="twitter:description" content="브레인시티 메디스파크의 E-모델하우스를 온라인으로 편리하게 둘러보세요." />
-        <meta name="twitter:image" content="https://www.leecols.kr/Main1.png" />
+        <meta name="twitter:image" content="https://www.beyinegzersizi.com/Main1.png" />
       </Helmet>
 
       <Header isChanged={isScroll} />

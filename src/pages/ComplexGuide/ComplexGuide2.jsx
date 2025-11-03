@@ -69,7 +69,7 @@ const ComplexGuide1 = () => {
         content="브레인시티메디스파크, 브레인시티메디스파크로제비앙, 브레인시티메디스파크대광로제비앙" /> 
         <link
           rel="canonical"
-          href="https://www.leecols.kr/ComplexGuide/detailintro"
+          href="https://www.beyinegzersizi.com/ComplexGuide/detailintro"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -84,11 +84,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.leecols.kr/ComplexGuide/detailintro"
+          content="https://www.beyinegzersizi.com/ComplexGuide/detailintro"
         />
         <meta property="og:site_name" content="브레인시티 메디스파크" />
 
@@ -105,11 +105,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.leecols.kr/ComplexGuide/detailintro"
+          content="https://www.beyinegzersizi.com/ComplexGuide/detailintro"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -121,7 +121,7 @@ const ComplexGuide1 = () => {
 											"name": "브레인시티 메디스파크 - 호수배치도",
 											"description": "브레인시티 메디스파크의 호수 배치도를 통해 각 세대의 위치와 전망을 확인하세요. 주거 만족도를 높이는 체계적인 배치 설계로 더 나은 라이프스타일을 제안합니다.
 ",
-											"url": "https://www.leecols.kr/ComplexGuide/detailintro"
+											"url": "https://www.beyinegzersizi.com/ComplexGuide/detailintro"
 										}
 										`}
         </script>

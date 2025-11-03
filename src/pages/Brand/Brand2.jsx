@@ -64,7 +64,7 @@ const Brand2 = () => {
   		<meta name="keywords" content="브레인시티 메디스파크, 브레인시티 메디스파크, 브레인시티 메디스파크모델하우스" />			
 		<link
 		  rel="canonical"
-		  href="https://www.leecols.kr/Brand/video"
+		  href="https://www.beyinegzersizi.com/Brand/video"
 		/>
 
 		{/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -79,11 +79,11 @@ const Brand2 = () => {
 		/>
 		<meta
 		  property="og:image"
-		  content="https://www.leecols.kr/Main1.png"
+		  content="https://www.beyinegzersizi.com/Main1.png"
 		/>
 		<meta
 		  property="og:url"
-		  content="https://www.leecols.kr/Brand/video"
+		  content="https://www.beyinegzersizi.com/Brand/video"
 		/>
 		<meta property="og:site_name" content="브레인시티 메디스파크" />
 
@@ -100,11 +100,11 @@ const Brand2 = () => {
 		/>
 		<meta
 		  name="twitter:image"
-		  content="https://www.leecols.kr/Main1.png"
+		  content="https://www.beyinegzersizi.com/Main1.png"
 		/>
 		<meta
 		  name="twitter:url"
-		  content="https://www.leecols.kr/Brand/video"
+		  content="https://www.beyinegzersizi.com/Brand/video"
 		/>
 
 		{/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -116,7 +116,7 @@ const Brand2 = () => {
 											"name": "브레인시티 메디스파크 - 홍보영상",
 											"description": "브레인시티 메디스파크의 홍보영상을 통해 단지의 매력적인 디자인과 최신 편의시설을 생생하게 만나보세요. 현대적 감각과 고급스러움을 결합한 주거 환경, 평택ㅍㅍ의 중심에서 경험할 수 있는 새로운 라이프스타일을 영상으로 확인하세요.
 ",
-											"url": "https://www.leecols.kr/Brand/video"
+											"url": "https://www.beyinegzersizi.com/Brand/video"
 										}
 										`}
 		</script>

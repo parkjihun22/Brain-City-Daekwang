@@ -115,7 +115,7 @@ const LocationEnvironment1 = () => {
         />
         <link
           rel="canonical"
-          href="https://www.leecols.kr/LocationEnvironment/intro"
+          href="https://www.beyinegzersizi.com/LocationEnvironment/intro"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -130,11 +130,11 @@ const LocationEnvironment1 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.leecols.kr/LocationEnvironment/intro"
+          content="https://www.beyinegzersizi.com/LocationEnvironment/intro"
         />
         <meta property="og:site_name" content="브레인시티 메디스파크" />
 
@@ -151,11 +151,11 @@ const LocationEnvironment1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.leecols.kr/LocationEnvironment/intro"
+          content="https://www.beyinegzersizi.com/LocationEnvironment/intro"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -167,7 +167,7 @@ const LocationEnvironment1 = () => {
 											"name": "브레인시티 메디스파크 - 입지환경",
 											"description": "브레인시티 메디스파크의 입지 정보를 확인하세요. 뛰어난 교통망, 생활 인프라, 교육 및 쇼핑 시설 등 편리한 주변 환경을 소개하며, 평택의 중심에서 누릴 수 있는 생활의 편리함과 가치를 제공합니다
 ",
-											"url": "https://www.leecols.kr/LocationEnvironment/intro"
+											"url": "https://www.beyinegzersizi.com/LocationEnvironment/intro"
 										}
 										`}
         </script>

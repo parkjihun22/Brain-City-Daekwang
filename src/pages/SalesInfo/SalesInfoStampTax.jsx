@@ -73,7 +73,7 @@ const ComplexGuide1 = () => {
         />
         <link
           rel="canonical"
-          href="https://www.leecols.kr/SalesInfo/stampTax"
+          href="https://www.beyinegzersizi.com/SalesInfo/stampTax"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -89,11 +89,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.leecols.kr/SalesInfo/stampTax"
+          content="https://www.beyinegzersizi.com/SalesInfo/stampTax"
         />
         <meta property="og:site_name" content="브레인시티 메디스파크" />
 
@@ -111,11 +111,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.leecols.kr/SalesInfo/stampTax"
+          content="https://www.beyinegzersizi.com/SalesInfo/stampTax"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -128,7 +128,7 @@ const ComplexGuide1 = () => {
                                             "description": "브레인시티 메디스파크의 인지세 안내 페이지는 분양과 관련된 세금 정보를 제공합니다. 인지세는 계약서 작성 시 부과되는 세금으로, 이를 사전에 파악하고 준비하는 것이 중요합니다. 이 페이지에서는 인지세의 계산 방법, 세액, 납부 절차 등을 쉽게 설명하여 고객들이 정확하게 준비할 수 있도록 돕습니다.
 
 ",
-                                            "url": "https://www.leecols.kr/SalesInfo/stampTax"
+                                            "url": "https://www.beyinegzersizi.com/SalesInfo/stampTax"
                                         }
                                         `}
         </script>

@@ -78,7 +78,7 @@ const FloorPlanVideos = () => {
         content="브레인시티메디스파크, 브레인시티메디스파크로제비앙, 브레인시티메디스파크대광로제비앙" />
         <link
           rel="canonical"
-          href="https://www.leecols.kr/FloorPlan/videos"
+          href="https://www.beyinegzersizi.com/FloorPlan/videos"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -93,11 +93,11 @@ const FloorPlanVideos = () => {
         />
         <meta
           property="og:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.leecols.kr/FloorPlan/videos"
+          content="https://www.beyinegzersizi.com/FloorPlan/videos"
         />
         <meta property="og:site_name" content="브레인시티 메디스파크" />
 
@@ -114,11 +114,11 @@ const FloorPlanVideos = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.leecols.kr/FloorPlan/videos"
+          content="https://www.beyinegzersizi.com/FloorPlan/videos"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -130,7 +130,7 @@ const FloorPlanVideos = () => {
                       "name": "브레인시티 메디스파크 - 평면안내",
                       "description": "세대안내영상 안내 페이지는 브레인시티 메디스파크의 각 아파트 세대안내영상을 제공합니다.
 ",
-                      "url": "https://www.leecols.kr/FloorPlan/videos"
+                      "url": "https://www.beyinegzersizi.com/FloorPlan/videos"
                     }
                     `}
         </script>

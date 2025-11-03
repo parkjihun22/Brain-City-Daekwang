@@ -74,7 +74,7 @@ const ComplexGuide1 = () => {
         />
         <link
           rel="canonical"
-          href="https://www.leecols.kr/SalesInfo/SubscriptionGuide"
+          href="https://www.beyinegzersizi.com/SalesInfo/SubscriptionGuide"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -90,11 +90,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.leecols.kr/SalesInfo/SubscriptionGuide"
+          content="https://www.beyinegzersizi.com/SalesInfo/SubscriptionGuide"
         />
         <meta property="og:site_name" content="브레인시티 메디스파크" />
 
@@ -112,11 +112,11 @@ const ComplexGuide1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.leecols.kr/SalesInfo/SubscriptionGuide"
+          content="https://www.beyinegzersizi.com/SalesInfo/SubscriptionGuide"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -129,7 +129,7 @@ const ComplexGuide1 = () => {
                                             "description": "브레인시티 메디스파크분양 전 필수 체크포인트를 확인하세요. 청약 자격, 서류 준비, 일정 등 분양 절차에서 놓치지 말아야 할 중요한 사항들을 정리해두었습니다. 정확한 정보와 절차를 통해 분양을 성공적으로 진행할 수 있도록 돕습니다.
 
 ",
-                                            "url": "https://www.leecols.kr/SalesInfo/SubscriptionGuide"
+                                            "url": "https://www.beyinegzersizi.com/SalesInfo/SubscriptionGuide"
                                         }
                                         `}
         </script>

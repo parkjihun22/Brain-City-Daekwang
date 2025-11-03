@@ -71,7 +71,7 @@ const BusinessGuide2 = () => {
         content="브레인시티메디스파크, 브레인시티메디스파크로제비앙, 브레인시티메디스파크대광로제비앙" />
         <link
           rel="canonical"
-          href="https://www.leecols.kr/BusinessGuide/plan"
+          href="https://www.beyinegzersizi.com/BusinessGuide/plan"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -86,11 +86,11 @@ const BusinessGuide2 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.leecols.kr/BusinessGuide/plan"
+          content="https://www.beyinegzersizi.com/BusinessGuide/plan"
         />
         <meta property="og:site_name" content="브레인시티 메디스파크" />
 
@@ -107,11 +107,11 @@ const BusinessGuide2 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.leecols.kr/BusinessGuide/plan"
+          content="https://www.beyinegzersizi.com/BusinessGuide/plan"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -123,7 +123,7 @@ const BusinessGuide2 = () => {
                                             "name": "브레인시티 메디스파크 - 분양일정",
                                             "description": "브레인시티 메디스파크의 최신 분양일정을 확인하고, 분양 일정 및 세부 사항을 이 페이지에서 자세히 확인하세요. 놓치지 마세요!
 ",
-                                            "url": "https://www.leecols.kr/BusinessGuide/plan"
+                                            "url": "https://www.beyinegzersizi.com/BusinessGuide/plan"
                                         }
                                         `}
         </script>

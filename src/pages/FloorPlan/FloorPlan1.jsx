@@ -76,7 +76,7 @@ const FloorPlan1 = () => {
         content="브레인시티메디스파크, 브레인시티메디스파크로제비앙, 브레인시티메디스파크대광로제비앙" />
         <link
           rel="canonical"
-          href="https://www.leecols.kr/FloorPlan/59A"
+          href="https://www.beyinegzersizi.com/FloorPlan/59A"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -91,11 +91,11 @@ const FloorPlan1 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.leecols.kr/FloorPlan/59A"
+          content="https://www.beyinegzersizi.com/FloorPlan/59A"
         />
         <meta property="og:site_name" content="브레인시티 메디스파크" />
 
@@ -112,11 +112,11 @@ const FloorPlan1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.leecols.kr/FloorPlan/59A"
+          content="https://www.beyinegzersizi.com/FloorPlan/59A"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -128,7 +128,7 @@ const FloorPlan1 = () => {
 											"name": "브레인시티 메디스파크 - 평면안내",
 											"description": "브레인시티 메디스파크의 평면도를 통해 세대별 구조와 공간 활용도를 확인하세요. 실용적이고 혁신적인 설계를 기반으로 한 다양한 평면 구성이 여러분의 생활을 더 편리하게 만듭니다.
 ",
-											"url": "https://www.leecols.kr/FloorPlan/59A"
+											"url": "https://www.beyinegzersizi.com/FloorPlan/59A"
 										}
 										`}
         </script>

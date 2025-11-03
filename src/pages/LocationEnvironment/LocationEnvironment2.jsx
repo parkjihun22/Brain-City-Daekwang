@@ -68,7 +68,7 @@ const LocationEnvironment1 = () => {
         />
         <link
           rel="canonical"
-          href="https://www.leecols.kr/LocationEnvironment/primium"
+          href="https://www.beyinegzersizi.com/LocationEnvironment/primium"
         />
 
         {/* Open Graph - 소셜 미디어 공유 최적화 */}
@@ -84,11 +84,11 @@ const LocationEnvironment1 = () => {
         />
         <meta
           property="og:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           property="og:url"
-          content="https://www.leecols.kr/LocationEnvironment/primium"
+          content="https://www.beyinegzersizi.com/LocationEnvironment/primium"
         />
         <meta property="og:site_name" content="브레인시티 메디스파크" />
 
@@ -106,11 +106,11 @@ const LocationEnvironment1 = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.leecols.kr/Main1.png"
+          content="https://www.beyinegzersizi.com/Main1.png"
         />
         <meta
           name="twitter:url"
-          content="https://www.leecols.kr/LocationEnvironment/primium"
+          content="https://www.beyinegzersizi.com/LocationEnvironment/primium"
         />
 
         {/* 구조화된 데이터 (JSON-LD) - 검색엔진 이해도 향상 */}
@@ -123,7 +123,7 @@ const LocationEnvironment1 = () => {
 											"description": "브레인시티 메디스파크만의 차별화된 프리미엄을 만나보세요. 고급스러운 디자인, 첨단 기술이 결합된 설계, 입주민을 위한 특별한 혜택 등을 통해 로제비앙만의 독보적인 가치를 제공합니다.
 
 ",
-											"url": "https://www.leecols.kr/LocationEnvironment/primium"
+											"url": "https://www.beyinegzersizi.com/LocationEnvironment/primium"
 										}
 										`}
         </script>
