@@ -32,7 +32,7 @@ const MobileNewsSection = ({ newsList }) => (
     </div>
 
     <div className={styles.more}>
-      <Link to="/브레인시티대광/press">보도자료 더 보기 &gt;</Link>
+      <Link to="/브레인시티 메디스파크/press">보도자료 더 보기 &gt;</Link>
     </div>
   </section>
 );
