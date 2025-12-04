@@ -688,14 +688,6 @@ const handleInputChange = (e) => {
             </div>
           </div>
           <MobileOverviewSection />
-                 {/* ─── 2.5. 중간에 풀-스크린 이미지 섹션 ───
-         <div className={styles.mobileMiddleImage}>
-           <img
-             src={require("../../assets/Bener/event.jpg")}
-            alt="단지 전경 추가 이미지"
-             className={styles.middleImage}
-           />
-         </div> */}
           
          {/* ② DarkComplexSection 추가 */}
          <section className={styles.darkSection}>
@@ -783,7 +775,7 @@ const handleInputChange = (e) => {
               </Link>
             </div>
           </div> */}
-          {/* <MobileNewsSection newsList={newsList} /> */}
+          <MobileNewsSection newsList={newsList} />
 
           {/* 모바일 방문예약 섹션 */}
 <div className={styles.mobileVisitContainer}>
