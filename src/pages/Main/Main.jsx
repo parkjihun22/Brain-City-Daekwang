@@ -571,7 +571,7 @@ const handleInputChange = (e) => {
       <br />
       <span className={styles.greyText1}>브랜드 프리미엄</span>
       <br />
-      계약금 5%로 내집마련기회
+      입주까지 1500만원으로 내집마련기회
       <br />
       <span className={styles.greyText1}>착한조건</span>
     </div>
