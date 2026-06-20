@@ -19,6 +19,7 @@ import InterestPopup from "../../components/InterestPopup/InterestPopup"; // 새
 // import UrlContainer from "../../components/UrlContainer/UrlContainer";\
 import UnitInfoSection from "../../components/UnitInfoSection/UnitInfoSection";
 import MobileNewsSection from "../../components/MobileNewsSection/MobileNewsSection";
+import FAQSection from "../../components/FAQSection/FAQSection"
 
 import news2Img from "../../assets/news/news2.jpg";
 import news3Img from "../../assets/news/news3.jpg";
@@ -423,67 +424,68 @@ const handleInputChange = (e) => {
             </div>
           </div>
           <div id="interestForm" className={styles.section}></div>
+          <FAQSection />
 
           {/* ================== 방문예약 섹션 (PC) ================== */}
-<div className={styles.pcVisitContainer}>
-  {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
-  <div className={styles.pcTitleRow}>
-    <div className={styles.leftTitle}>
-      <h2>브레인시티 메디스파크</h2>
-      <p>방문예약</p>
-    </div>
-    <div className={styles.rightText}>
-      방문예약 등록 시 모델하우스 주소 SMS발송 및
-      <br />
-      잔여세대를 안내드립니다.
-    </div>
-  </div>
+            <div className={styles.pcVisitContainer}>
+              {/* 상단 타이틀 영역 (좌: 제목/부제, 우: 안내문구) */}
+              <div className={styles.pcTitleRow}>
+                <div className={styles.leftTitle}>
+                  <h2>브레인시티 메디스파크</h2>
+                  <p>방문예약</p>
+                </div>
+                <div className={styles.rightText}>
+                  방문예약 등록 시 모델하우스 주소 SMS발송 및
+                  <br />
+                  잔여세대를 안내드립니다.
+                </div>
+              </div>
 
-  {/* 입력 폼 */}
-  <form
-    className={styles.pcVisitForm}
-    action="https://formspree.io/f/xblkodpa"
-    method="POST"
-  >
-    <label htmlFor="name">
-      고객명 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="text"
-      name="name"
-      placeholder="고객명"
-      value={registration.name}
-      onChange={handleInputChange}
-      required
-    />
+              {/* 입력 폼 */}
+              <form
+                className={styles.pcVisitForm}
+                action="https://formspree.io/f/xblkodpa"
+                method="POST"
+              >
+                <label htmlFor="name">
+                  고객명 <span className={styles.redStar}>*</span>
+                </label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="고객명"
+                  value={registration.name}
+                  onChange={handleInputChange}
+                  required
+                />
 
-    <label htmlFor="phone">
-      연락처 <span className={styles.redStar}>*</span>
-    </label>
-    <input
-      type="tel"
-      name="phone"
-      placeholder="010-0000-0000"
-      value={registration.phone}
-      onChange={handleInputChange}
-      required
-    />
-  
+                <label htmlFor="phone">
+                  연락처 <span className={styles.redStar}>*</span>
+                </label>
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="010-0000-0000"
+                  value={registration.phone}
+                  onChange={handleInputChange}
+                  required
+                />
+              
 
-    <label htmlFor="message">
-      문의 내용
-    </label>
-    <textarea
-      name="message"
-      placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
-      value={registration.message}
-      onChange={handleInputChange}
-      rows={5}
-    />
+                <label htmlFor="message">
+                  문의 내용
+                </label>
+                <textarea
+                  name="message"
+                  placeholder="문의 내용이 있을 경우 이곳에 남겨주세요."
+                  value={registration.message}
+                  onChange={handleInputChange}
+                  rows={5}
+                />
 
-    <button type="submit">등록하기</button>
-  </form>
-</div>
+                <button type="submit">등록하기</button>
+              </form>
+            </div>
 
           {/* <div className={styles.section}>
             <div className={styles.section9}>
@@ -700,6 +702,7 @@ const handleInputChange = (e) => {
             </div>
           </div> */}
           <MobileNewsSection newsList={newsList} />
+          <FAQSection />
 
           {/* 모바일 방문예약 섹션 */}
 <div className={styles.mobileVisitContainer}>
